@@ -85,6 +85,15 @@
  * @see html.tpl.php
  */
 ?>
+
+<?php
+drupal_add_js(drupal_get_path('carousel', 'carousel') .'./themes/bartik/js/jquery.jcarousel.min.js');
+drupal_add_js(drupal_get_path('tagsphere', 'tagsphere') .'./themes/bartik/js/jquery.tagsphere.js');
+drupal_add_css('./themes/bartik/css/skin.css', array('group' => CSS_THEME, 'type' => 'external'));
+?>
+
+
+
 <div id="page-wrapper"><div id="page">
 
   <div id="header" class="<?php print $secondary_menu ? 'with-secondary-menu': 'without-secondary-menu'; ?>"><div class="section clearfix">
@@ -257,3 +266,11 @@
   </div></div> <!-- /.section, /#footer-wrapper -->
 
 </div></div></div> <!-- /#page, /#page-wrapper -->
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').jcarousel();
+	jQuery('#tagsphere').tagSphere({
+	});
+});
+</script>
