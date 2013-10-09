@@ -90,8 +90,8 @@
   <div id="header" class="<?php print $secondary_menu ? 'with-secondary-menu': 'without-secondary-menu'; ?>"><div class="section clearfix">
 
     <?php if ($logo): ?>
-      <a href="<?php print $front_page; ?>" title="<?php print t('A propos'); ?>" rel="home" id="logo">
-        <img src="./themes/bartik/images/logo.png" alt="<?php print t('A propos'); ?>" />
+      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
+        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
       </a>
     <?php endif; ?>
 
@@ -102,12 +102,12 @@
           <?php if ($title): ?>
             <div id="site-name"<?php if ($hide_site_name) { print ' class="element-invisible"'; } ?>>
               <strong>
-                <a href="<?php print $front_page; ?>" title="" rel="home"><span></span></a>
+                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
               </strong>
             </div>
           <?php else: /* Use h1 when the content title is empty */ ?>
             <h1 id="site-name"<?php if ($hide_site_name) { print ' class="element-invisible"'; } ?>>
-              <a href="<?php print $front_page; ?>" title="<?php print t('A propos'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
+              <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
             </h1>
           <?php endif; ?>
         <?php endif; ?>
@@ -158,7 +158,7 @@
     <?php endif; ?>
 
   </div></div> <!-- /.section, /#header -->
-	
+
   <?php if ($messages): ?>
     <div id="messages"><div class="section clearfix">
       <?php print $messages; ?>
@@ -170,8 +170,7 @@
       <?php print render($page['featured']); ?>
     </div></div> <!-- /.section, /#featured -->
   <?php endif; ?>
-	<div id="fond">
-		<div id="fondTitre"><img src="./themes/bartik/images/phrase_jaune.png" id="phrasejaune"></img><br><img src="./themes/bartik/images/phrase_bleue.png" id="phrasebleue"></img></div>
+
   <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
 
     <?php if ($breadcrumb): ?>
@@ -189,8 +188,7 @@
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
-		
-        <h1 class="title" id="page-title"><img src="./themes/bartik/images/cubevert.png" class="imgh2">
+        <h1 class="title" id="page-title">
           <?php print $title; ?>
         </h1>
       <?php endif; ?>
@@ -240,20 +238,10 @@
 
     <?php if ($page['footer']): ?>
       <div id="footer" class="clearfix">
-        <div class="divfooter firstli">&copy 2013 Tous droits r&eacute;serv&eacute;s - Fondation Cognition</div><div class="divfooter secondli">Mentions l&eacute;gales</div>
-		<div class="divfooter mentions">Suivez-nous sur les m&eacute;dias sociaux</div>
-		<div class="divfooter">
-			<img src="./themes/bartik/images/icone_facebook.png"></img>
-			<img src="./themes/bartik/images/icone_twitter.png"></img>
-			<img src="./themes/bartik/images/icone_google.png"></img>
-			<img src="./themes/bartik/images/icone_linkedin.png"></img>
-			<img src="./themes/bartik/images/icone_youtube.png"></img>
-			<img src="./themes/bartik/images/icone_flickr.png"></img>
-			<img src="./themes/bartik/images/icone_rss.png"></img>
-		</div>
+        <?php print render($page['footer']); ?>
       </div> <!-- /#footer -->
     <?php endif; ?>
 
   </div></div> <!-- /.section, /#footer-wrapper -->
 
-</div></div></div> <!-- /#page, /#page-wrapper -->
+</div></div> <!-- /#page, /#page-wrapper -->

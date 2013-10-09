@@ -258,7 +258,6 @@ html.js .js-hide {
   height: 0;
   clear: both;
   visibility: hidden;
-  background-color : white;
 }
 /* IE6 */
 * html .clearfix {
