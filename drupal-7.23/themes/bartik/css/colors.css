@@ -9,7 +9,6 @@ body.overlay {
   border-color: #ffffff;
 }
 #page,
-
 #main-menu-links li a.active,
 #main-menu-links li.active-trail a {
   background: #ffffff;
@@ -18,10 +17,12 @@ body.overlay {
 #main-wrapper{
 	background : transparent;
 }
+
 #fond{
 background-image : url(../images/background.png);  
 background-repeat:no-repeat;
 }
+
 .tabs ul.primary li a.active {
   background-color: #ffffff;
 }
@@ -29,8 +30,8 @@ background-repeat:no-repeat;
   background-color: #ffffff;
   border-bottom: 1px solid #ffffff;
 }
-#header {
 
+#header {
 }
 a {
   color: #0071B3;
