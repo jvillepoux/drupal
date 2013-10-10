@@ -1702,3 +1702,8 @@ margin-left : 100px;
 .secondli{
 	margin-left : 75px;
 }
+
+#fond{
+background-image : url(../images/background.png);  
+background-repeat:no-repeat;
+}
