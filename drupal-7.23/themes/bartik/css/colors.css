@@ -19,7 +19,7 @@ body.overlay {
 	background : transparent;
 }
 #fond{
-background-image : url(../images/background.png);
+background-image : url(../images/background.png);  
 background-repeat:no-repeat;
 }
 .tabs ul.primary li a.active {
