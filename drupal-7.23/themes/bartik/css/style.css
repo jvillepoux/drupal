@@ -30,7 +30,7 @@ h6 {
 }
 h1 {
   font-size: 1.357em;
-  color: #000;
+  color: #A6D122;
 }
 h2 {
   font-size: 1.143em;
@@ -458,6 +458,8 @@ h1#site-name {
 
 #main-menu {
   clear: both;
+  float :right;
+  margin-top : -80px;
 }
 #main-menu-links {
   font-size: 0.929em;
@@ -471,9 +473,9 @@ h1#site-name {
   margin: 0 1px;
 }
 #main-menu-links a {
-  color: #333;
-  background: #ccc;
-  background: rgba(255, 255, 255, 0.7);
+
+  background: white;
+  background: white;
   float: left; /* LTR */
   height: 2.4em;
   line-height: 2.4em;
@@ -486,25 +488,27 @@ h1#site-name {
   -moz-border-radius-topright: 8px;
   -webkit-border-top-left-radius: 8px;
   -webkit-border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+
 }
 #main-menu-links a:hover,
 #main-menu-links a:focus {
-  background: #f6f6f2;
-  background: rgba(255, 255, 255, 0.95);
+  background-color : white;
+  color : #A6D122;
 }
 #main-menu-links a:active {
-  background: #b3b3b3;
-  background: rgba(255, 255, 255, 1);
+  background-color : white;
+  color : #A6D122;
 }
 #main-menu-links li a.active {
   border-bottom: none;
+  background-color : white;
+  color : #A6D122;
 }
 .featured #main-menu-links li a:active,
 .featured #main-menu-links li a.active {
-  background: #f0f0f0;
+  background: white;
   background: rgba(240, 240, 240, 1.0);
+  color : green;
 }
 
 /* --------------- Secondary Menu ------------ */
@@ -524,6 +528,9 @@ h1#site-name {
 #main {
   margin-top: 20px;
   margin-bottom: 40px;
+  background : #FFF;
+  border : 1px solid #fff;
+  border-radius: 10px;
 }
 
 /* ----------------- Featured ----------------- */
@@ -762,6 +769,7 @@ ul.links {
   text-shadow: 0 1px 0 #fff;
   font-size: 1.071em;
   line-height: 1.2;
+  color : #D75B5B;
 }
 .sidebar .block .content {
   font-size: 0.914em;
@@ -1647,4 +1655,53 @@ div.admin-panel .description {
 }
 #footer-wrapper .poll .bar .foreground {
   background-color: #ddd;
+}
+
+.imgh2{
+	margin-right : 5px;
+	vertical-align : middle;
+}
+
+#main-wrapper{
+background-image : url(../images/background.png);
+background-repeat:no-repeat;
+}
+
+
+#phrasejaune{
+	margin-left : 30%;
+	padding-top:40px;
+}
+
+#phrasebleue{
+	margin-left :	40%;
+}
+	
+.field-name-field-image{
+		float : left;
+		display : inline;
+		margin-right : 20px;
+		margin-top : 10px;
+}
+
+.field-name-body{
+	display : inline;
+}
+
+.divfooter{
+	display : inline-block;
+	vertical-align : middle;
+}
+
+.footer img {
+	vertical-alin : middle;
+}
+
+.mentions{
+color : #F79E42;
+margin-left : 100px;
+}
+
+.secondli{
+	margin-left : 75px;
 }
