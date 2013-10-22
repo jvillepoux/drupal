@@ -1729,9 +1729,9 @@ width : 133px;
 
 .jcarousel-skin-default .jcarousel-prev-horizontal {
     background-position: 0 0;
-    left: -30px;
+    left: 134px;
     position: absolute;
-    top: 55px;
+    top: 134px;
 }
 
 
@@ -1739,7 +1739,7 @@ width : 133px;
     background-position: 0 -32px;
     position: absolute;
     right: -30px;
-    top: 55px;
+    top: 134px;
 }
 
 
@@ -1757,4 +1757,8 @@ width : 133px;
 .jcarousel-skin-default {
     text-align: justify;
 	font-size : 0.9em;
+}
+
+.more-link{
+	margin-right:30px;
 }
