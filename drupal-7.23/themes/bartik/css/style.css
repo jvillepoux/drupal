@@ -1697,7 +1697,7 @@ background-repeat:no-repeat;
 
 .mentions{
 color : #F79E42;
-margin-left : 100px;
+margin-left : 90px;
 }
 
 .secondli{
@@ -1731,7 +1731,7 @@ width : 133px;
     background-position: 0 0;
     left: 134px;
     position: absolute;
-    top: 134px;
+    top: 124px;
 }
 
 
@@ -1739,7 +1739,7 @@ width : 133px;
     background-position: 0 -32px;
     position: absolute;
     right: -30px;
-    top: 134px;
+    top: 124px;
 }
 
 
