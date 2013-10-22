@@ -37,6 +37,7 @@ h2 {
 }
 p {
   margin: 0 0 1.2em;
+  text-align : justify;
 }
 del {
   text-decoration: line-through;
@@ -1706,4 +1707,54 @@ margin-left : 100px;
 #fond{
 background-image : url(../images/background.png);  
 background-repeat:no-repeat;
+}
+
+
+
+.jcarousel-skin-default .jcarousel-container-horizontal {
+    height: 130px;
+    margin: auto;
+    padding: 5px 0px;
+    width: 170px;
+}
+
+.jcarousel-item-horizontal{
+width : 133px;
+}
+
+.jcarousel-skin-default .jcarousel-clip-horizontal {
+    overflow: hidden;
+    width: 170px;
+}
+
+.jcarousel-skin-default .jcarousel-prev-horizontal {
+    background-position: 0 0;
+    left: -30px;
+    position: absolute;
+    top: 55px;
+}
+
+
+.jcarousel-skin-default .jcarousel-next-horizontal {
+    background-position: 0 -32px;
+    position: absolute;
+    right: -30px;
+    top: 55px;
+}
+
+
+
+.jcarousel-skin-default .jcarousel-item {
+    background-color: transparent;
+    border: 0px;
+    height: 130px;
+    list-style: none outside none;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+.jcarousel-skin-default {
+    text-align: justify;
+	font-size : 0.9em;
 }
