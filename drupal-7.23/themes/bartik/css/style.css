@@ -466,6 +466,7 @@ h1#site-name {
   font-size: 0.929em;
   margin: 0;
   padding: 0 15px;
+  text-transform : uppercase;
 }
 #main-menu-links li {
   float: left; /* LTR */
