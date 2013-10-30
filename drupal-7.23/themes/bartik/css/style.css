@@ -463,6 +463,8 @@ h1#site-name {
   clear: both;
   float :right;
   margin-top : -80px;
+  font-size : 12pt;
+  font-weight : regular;
 }
 #main-menu-links {
   font-size: 0.929em;
