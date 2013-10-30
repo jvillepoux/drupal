@@ -312,7 +312,7 @@ function cumulus_get_weighted_tags($vocs,$steps, $max_amount = 60){
   $query->condition('t.vid', $vocs, 'IN');
 
   $query->range(0, $max_amount)
-    ->groupBy("i.tid");
+    ->groupBy("t.tid");
 
   $result = $query->execute();
  
