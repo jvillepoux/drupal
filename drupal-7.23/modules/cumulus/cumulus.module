@@ -313,7 +313,8 @@ function cumulus_get_weighted_tags($vocs,$steps, $max_amount = 60){
 
   $query->range(0, $max_amount)
     ->groupBy("i.tid,t.tid");
-
+  error_log($query);
+  
   $result = $query->execute();
  
   $terms = array();
