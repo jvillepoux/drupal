@@ -315,7 +315,7 @@ function cumulus_get_weighted_tags($vocs,$steps, $max_amount = 60){
     ->groupBy("t.tid");
 
   $result = $query->execute();
-
+ 
   $terms = array();
   while($record = $result->fetchAssoc()) {
     $terms[] = (object) $record;
