@@ -1738,6 +1738,14 @@ background-repeat:no-repeat;
     width: 170px;
 }
 
+.view-partenairescarousel .jcarousel-skin-default, .view-partenairescarousel .jcarousel-container-horizontal {
+    height: 130px;
+    margin: auto;
+    padding: 5px 0px;
+    width: 400px;
+}
+
+
 .jcarousel-item-horizontal{
 width : 133px;
 }
@@ -1762,6 +1770,47 @@ width : 133px;
     top: 134px;
 }
 
+/* début partenaire */
+
+.jcarousel-item-horizontal{
+width : 133px;
+}
+
+.view-partenairescarousel .jcarousel-skin-default .jcarousel-clip-horizontal {
+    overflow: hidden;
+    width: 400px;
+}
+
+.view-partenairescarousel .jcarousel-skin-default .jcarousel-prev-horizontal {
+    background-position: 0 0;
+    left: -40px;
+    position: absolute;
+    top: 50px;
+}
+
+
+.view-partenairescarousel .jcarousel-skin-default .jcarousel-next-horizontal {
+    background-position: 0 -32px;
+    position: absolute;
+    right: -38px;
+    top: 50px;
+}
+
+.view-partenairescarousel .jcarousel-skin-default .jcarousel-next {
+    background-image: url("next-horizontal.png");
+    display: block;
+    height: 32px;
+    width: 32px;
+}
+
+.view-partenairescarousel .jcarousel-skin-default .jcarousel-prev  {
+    background-image: url("prev-horizontal.png");
+    display: block;
+    height: 32px;
+    width: 32px;
+}
+
+/* fin partenaire */
 
 
 .jcarousel-skin-default .jcarousel-item {
