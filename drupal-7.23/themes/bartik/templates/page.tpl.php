@@ -246,7 +246,9 @@ drupal_add_css('./themes/bartik/css/skin.css', array('group' => CSS_THEME, 'type
     <?php endif; ?>
 
     <?php if ($page['footer']): ?>
+	
       <div id="footer" class="clearfix">
+		<div style="margin-left:900px;"><a href="./?q=user">login</a></div>
         <div class="divfooter firstli">&copy 2013 Tous droits r&eacute;serv&eacute;s - Fondation Cognition</div><div class="divfooter secondli"><a href="./?q=mentions-legales">Mentions l&eacute;gales</a></div>
 		<div class="divfooter mentions">Suivez-nous sur les m&eacute;dias sociaux</div>
 		<div class="divfooter">
