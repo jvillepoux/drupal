@@ -1776,12 +1776,12 @@ width : 133px;
 width : 133px;
 }
 
-.partenaires .jcarousel-skin-default .jcarousel-clip-horizontal {
+.view-partenaires .jcarousel-skin-default .jcarousel-clip-horizontal {
     overflow: hidden;
     width: 400px;
 }
 
-.partenaires .jcarousel-skin-default .jcarousel-prev-horizontal {
+.view-partenaires .jcarousel-skin-default .jcarousel-prev-horizontal {
     background-position: 0 0;
     left: -40px;
     position: absolute;
@@ -1789,21 +1789,21 @@ width : 133px;
 }
 
 
-.partenaires .jcarousel-skin-default .jcarousel-next-horizontal {
+.view-partenaires  .jcarousel-skin-default .jcarousel-next-horizontal {
     background-position: 0 -32px;
     position: absolute;
     right: -38px;
     top: 50px;
 }
 
-.partenaires .jcarousel-skin-default .jcarousel-next {
+.view-partenaires  .jcarousel-skin-default .jcarousel-next {
     background-image: url("next-horizontal.png");
     display: block;
     height: 32px;
     width: 32px;
 }
 
-.partenaires .jcarousel-skin-default .jcarousel-prev  {
+.view-partenaires  .jcarousel-skin-default .jcarousel-prev  {
     background-image: url("prev-horizontal.png");
     display: block;
     height: 32px;
