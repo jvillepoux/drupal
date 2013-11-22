@@ -643,6 +643,7 @@ h1#page-title {
   font-size: 0.857em;
   color: #68696b;
   margin-bottom: -5px;
+  display : none;
 }
 .submitted .user-picture img {
   float: left; /* LTR */
@@ -1837,6 +1838,4 @@ width : 140px;
 height : 125px;
 }
 
-.meta .submitted{
-display : none;
-}
+
