@@ -1836,3 +1836,7 @@ width : 133px;
 width : 140px;
 height : 125px;
 }
+
+.meta .submitted{
+display : none;
+}
