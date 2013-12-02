@@ -250,16 +250,7 @@ drupal_add_css('./themes/bartik/css/skin.css', array('group' => CSS_THEME, 'type
       <div id="footer" class="clearfix">
 		<?php if ( !$user->uid ) print "<div style=\"margin-left:900px;\"><a href=\"./?q=user\">login</a></div>" ?>
         <div class="divfooter firstli">&copy 2013 Tous droits r&eacute;serv&eacute;s - Fondation Cognition</div><div class="divfooter secondli"><a href="./?q=mentions-legales">Mentions l&eacute;gales</a></div>
-		<div class="divfooter mentions">Suivez-nous sur les m&eacute;dias sociaux</div>
-		<div class="divfooter">
-			<img src="./themes/bartik/images/icone_facebook.png"></img>
-			<img src="./themes/bartik/images/icone_twitter.png"></img>
-			<img src="./themes/bartik/images/icone_google.png"></img>
-			<img src="./themes/bartik/images/icone_linkedin.png"></img>
-			<img src="./themes/bartik/images/icone_youtube.png"></img>
-			<img src="./themes/bartik/images/icone_flickr.png"></img>
-			<img src="./themes/bartik/images/icone_rss.png"></img>
-		</div>
+		
       </div> <!-- /#footer -->
     <?php endif; ?>
 
